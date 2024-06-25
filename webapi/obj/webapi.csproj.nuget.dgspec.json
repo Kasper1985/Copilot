@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Work\\Private\\SemanticKernel\\copilot\\webapi\\webapi.csproj": {}
+    "C:\\Work\\Private\\SemanticKernel\\copilot\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
     "C:\\Work\\Private\\SemanticKernel\\copilot\\Shared\\Shared.csproj": {
@@ -77,14 +77,14 @@
         }
       }
     },
-    "C:\\Work\\Private\\SemanticKernel\\copilot\\webapi\\webapi.csproj": {
+    "C:\\Work\\Private\\SemanticKernel\\copilot\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work\\Private\\SemanticKernel\\copilot\\webapi\\webapi.csproj",
+        "projectUniqueName": "C:\\Work\\Private\\SemanticKernel\\copilot\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Work\\Private\\SemanticKernel\\copilot\\webapi\\webapi.csproj",
+        "projectPath": "C:\\Work\\Private\\SemanticKernel\\copilot\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\Yuriy\\.nuget\\packages\\",
-        "outputPath": "C:\\Work\\Private\\SemanticKernel\\copilot\\webapi\\obj\\",
+        "outputPath": "C:\\Work\\Private\\SemanticKernel\\copilot\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

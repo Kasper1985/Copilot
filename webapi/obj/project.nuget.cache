@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ftdQ/XeLPasg8DlJjHvAREb6josRWXMxG4R8A709SIAhNYrD0NFW+UNb764Vxdl+CJ5RQX9MyFlsVufPNxyoHw==",
+  "dgSpecHash": "3Rf38c70B1KaWzq9V60/f/JfksOUK8XcA6RAjH4Bkkw66dvBxqkWa4LZwtTbH5yGG6P4BT0qT8ZE6vfT1walEg==",
   "success": true,
-  "projectFilePath": "C:\\Work\\Private\\SemanticKernel\\copilot\\webapi\\webapi.csproj",
+  "projectFilePath": "C:\\Work\\Private\\SemanticKernel\\copilot\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yuriy\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Yuriy\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

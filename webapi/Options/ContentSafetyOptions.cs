@@ -8,7 +8,7 @@ namespace WebApi.Options;
 /// </summary>
 public class ContentSafetyOptions
 {
-    public const string PropertyName = "ContentSafety";
+    public const string SectionName = "ContentSafety";
  
     /// <summary>
     /// Whether to enable content safety.

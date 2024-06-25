@@ -7,7 +7,7 @@ namespace WebApi.Options;
 /// </summary>
 public class ServiceOptions
 {
-    public const string PropertyName = "Service";
+    public const string SectionName = "Service";
 
     /// <summary>
     /// Timeout limit on requests to the service in seconds.

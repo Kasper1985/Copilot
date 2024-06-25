@@ -5,6 +5,7 @@ using WebApi.Extensions;
 using WebApi.Hubs;
 using WebApi.Services;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Load configurations from appsettings.json and its environment-specific counterpart.

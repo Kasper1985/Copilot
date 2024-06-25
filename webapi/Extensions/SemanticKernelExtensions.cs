@@ -132,7 +132,7 @@ internal static class SemanticKernelExtensions
     private static void AddContentSafety(this IServiceCollection services)
     {
         var configuration = services.BuildServiceProvider().GetRequiredService<IConfiguration>();
-        var options = configuration.GetSection(ContentSafetyOptions.PropertyName).Get<ContentSafetyOptions>() ?? new ContentSafetyOptions { Enabled = false };
+        var options = configuration.GetSection(ContentSafetyOptions.SectionName).Get<ContentSafetyOptions>() ?? new ContentSafetyOptions { Enabled = false };
         services.AddSingleton<IContentSafetyService>(_ => new AzureContentSafety(options.Endpoint, options.Key));
     }
     

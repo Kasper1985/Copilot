@@ -9,7 +9,7 @@ namespace WebApi.Options;
 /// </summary>
 public class PromptsOptions
 {
-    public const string PropertyName = "Prompts";
+    public const string SectionName = "Prompts";
     
     /// <summary>
     /// Token limit of the chat model.

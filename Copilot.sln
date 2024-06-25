@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "webapi\webapi.csproj", "{51C8A80C-98F2-472A-990E-479C7FBB5DC7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{51C8A80C-98F2-472A-990E-479C7FBB5DC7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{6963A2B5-67D4-4343-A521-C9BE0AC7D293}"
 EndProject

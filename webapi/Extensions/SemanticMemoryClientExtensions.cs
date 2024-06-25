@@ -30,7 +30,7 @@ public static class SemanticMemoryClientExtensions
         var pipelineType = memoryConfig.DataIngestion.OrchestrationType;
         var isDistributed = pipelineType.Equals(MemoryConfiguration.OrchestrationTypeDistributed, StringComparison.OrdinalIgnoreCase);
         
-        appBuilder.Services.AddSingleton(sp => new DocumentTypeProvider(hasOcr));
+        appBuilder.Services.AddSingleton(_ => new DocumentTypeProvider(hasOcr));
         
         var memoryBuilder = new KernelMemoryBuilder(appBuilder.Services);
         if (isDistributed)

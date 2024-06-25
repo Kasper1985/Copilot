@@ -4,7 +4,7 @@ namespace WebApi.Options;
 
 public class DocumentMemoryOptions
 {
-    public const string PropertyName = "DocumentMemory";
+    public const string SectionName = "DocumentMemory";
     
     /// <summary>
     /// Global documents will be tagged by an empty Guid as chat-id ("00000000-0000-0000-0000-000000000000").

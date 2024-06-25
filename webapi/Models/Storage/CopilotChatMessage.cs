@@ -15,7 +15,7 @@ public class CopilotChatMessage(string userId, string userName, string chatId, s
     /// <summary>
     /// ID of the message.
     /// </summary>
-    public string Id { get; set; } = string.Empty;
+    public string Id { get; set; } = Guid.NewGuid().ToString();
     
     /// <summary>
     /// Timestamp of the message.

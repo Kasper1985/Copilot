@@ -1,4 +1,6 @@
 using Microsoft.Extensions.Options;
+using Microsoft.KernelMemory;
+using Shared;
 using WebApi.Enums;
 using WebApi.Models.Storage;
 using WebApi.Options;
@@ -13,10 +15,20 @@ internal static class ServiceExtensions
 {
     internal static IServiceCollection AddOptions(this IServiceCollection services, IConfiguration configuration)
     {
-        // Azure Speech token configuration
-        AddOptionsForSection<AzureSpeechOptions>(AzureSpeechOptions.SectionName);
+        // General configuration
+        AddOptionsForSection<ServiceOptions>(ServiceOptions.SectionName);
         // Chat storage configuration
         AddOptionsForSection<ChatStoreOptions>(ChatStoreOptions.SectionName);
+        // Azure Speech token configuration
+        AddOptionsForSection<AzureSpeechOptions>(AzureSpeechOptions.SectionName);
+        // Document memory configuration
+        AddOptionsForSection<DocumentMemoryOptions>(DocumentMemoryOptions.SectionName);
+        // Chat prompt options
+        AddOptionsForSection<PromptsOptions>(PromptsOptions.SectionName);
+        // Content Safety configuration
+        AddOptionsForSection<ContentSafetyOptions>(ContentSafetyOptions.SectionName);
+        // Kernel memory configuration
+        AddOptionsForSection<KernelMemoryConfig>(MemoryConfiguration.KernelMemorySection);
         
         return services;
         
